@@ -18,8 +18,12 @@ const Route = use('Route')
 
 Route.on('/').render('home')
 
-// Testing Route
+Route.get('/posts', 'PostController.index')
+
+// Testing Route using non ES6 syntax
 // Route.get('/api/:id', function ({params}) {
 //     return `<p>ini adalah ${params.id}</p>`
 // })
+
+// Testing Route using non ES6 syntax (arrow function)
 // Route.get('/contoh', () => { return `Haii` })

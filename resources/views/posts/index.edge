@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.css" media="screen">
+</head>
+<body>
+    <div class="container">
+        <h3>AdonisBlog</h3>
+
+        @each(post in posts)
+            <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+                <div class="card-header">{{ title }}</div>
+                <div class="card-body">
+                <h4 class="card-title">{{ post.title }}</h4>
+                <p class="card-text">{{ post.body }}</p>
+                </div>
+            </div>
+        @endeach
+
+    </div>
+</body>
+</html>
