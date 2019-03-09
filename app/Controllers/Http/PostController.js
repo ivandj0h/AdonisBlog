@@ -13,7 +13,11 @@ class PostController {
             {
                 title : 'Post Two',
                 body  : 'This is the post two'
-            }            
+            },
+            {
+                title : 'Post Three',
+                body  : 'This is the post three'
+            }                        
         ]
 
         return view.render('posts.index', {
