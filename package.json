@@ -1,11 +1,11 @@
 {
-  "name": "adonis-fullstack-app",
+  "name": "adonisblog",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "node ace test"
   },
   "keywords": [
@@ -27,7 +27,9 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
   "autoload": {
     "App": "./app"
   }
