@@ -19,7 +19,9 @@ const Route = use('Route')
 Route.on('/').render('home')
 
 Route.get('/posts', 'PostController.index')
+Route.get('/posts/add', 'PostController.add')
 Route.get('posts/:id', 'PostController.details')
+Route.post('/posts', 'PostController.store')
 
 // Testing Route using non ES6 syntax
 // Route.get('/api/:id', function ({params}) {
