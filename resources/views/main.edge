@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    {{ style('https://bootswatch.com/4/cosmo/bootstrap.css') }}
+    {{ style('https://bootswatch.com/4/spacelab/bootstrap.css') }}
+    <style>body{padding-top:70px}</style>
 </head>
 <body>
     @include('inc/navbar')
     <div class="container">
         @!section('content')
     </div>
-
-
     {{ script('https://bootswatch.com/_vendor/jquery/dist/jquery.min.js') }}
     {{ script('https://bootswatch.com/_vendor/popper.js/dist/umd/popper.min.js') }}
     {{ script('https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js') }}
