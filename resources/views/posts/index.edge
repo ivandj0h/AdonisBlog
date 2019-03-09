@@ -2,15 +2,24 @@
 
 @section('content')
 
-@if(old('notification'))
-<div class="alert alert-success">
-  {{ old('notification') }}
-</div>
-@endif
+<h3>AdonisBlog</h3>
+<hr>
 
-<ul class="list-group">
-@each(post in posts)
-    <li class="list-group-item d-flex justify-content-between align-items-center"><a href="/posts/{{post.id}}"> {{ post.title }}</a></li>
-@endeach
-</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            @if(old('notification'))
+            <div class="alert alert-success">
+            {{ old('notification') }}
+            </div>
+            @endif
+
+            <ul class="list-group">
+                @each(post in posts)
+                    <li class="list-group-item list-group-item-action"><a href="/posts/{{post.id}}"> {{ post.title }}</a></li>
+                @endeach
+            </ul>
+        </div>
+    </div>
+</div>
 @endsection
