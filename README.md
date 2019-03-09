@@ -27,4 +27,8 @@ adonis migration:run
 ```
 ### ScreenShoot
 
+<<<<<<< HEAD
 ![alt text](public/splash.png "Description goes here")
+=======
+![alt text](splash.png "Description goes here")
+>>>>>>> 1baf75f18f86242716f6f1da54f39601b36fd7e8
