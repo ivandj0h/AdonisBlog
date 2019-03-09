@@ -30,3 +30,5 @@ adonis migration:run
 ![Dashboard](public/dashboard.png "This is the Home")
 
 ![Form Add](public/add.png "This is the form add")
+
+![Form edit](public/edit.png "This is the form edit")
