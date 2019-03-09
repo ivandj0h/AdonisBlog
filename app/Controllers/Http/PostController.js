@@ -3,6 +3,8 @@
 // to get data from MySQL, we have to Bring in Post Model
 const Post = use('App/Models/Post')
 
+// Bring in validator
+const { validate } = use('Validator') 
 
 class PostController {
 
