@@ -5,13 +5,17 @@ This is the fullstack Adonis Blog application using AdonisJs.
 
 ## Setup
 
-Use the adonis command to install the blueprint
+If you want to test this Simple Application just clone this Repo
 
-```bash
-adonis new yardstick
-```
+      git clone https://github.com/ivandi1980/AdonisBlog.git
+      
+      npm install
+      
+      npm start
 
-or manually clone the repo and then run `npm install`.
+or you can use Adonis CLI.
+
+      npm i -g @adonisjs/cli
 
 
 ### Migrations
