@@ -8,7 +8,9 @@ This is the fullstack Adonis Blog application using AdonisJs.
 If you want to test this Simple Application just clone this Repo
 
       git clone https://github.com/ivandi1980/AdonisBlog.git
+      
       npm install
+      
       npm start
 
 or you can use Adonis CLI.
